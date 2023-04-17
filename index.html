@@ -28,7 +28,20 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-  
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <button class="Previous" id="pre">Previous</button>
+        </li>
+        <li class="space"><p> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;</p></li>
+        <li class="page-item">
+          <button class="next" id="nxt">next</button>
+        </li>
+      </ul>
+    </nav>
+    <div calss="date">
+      <p id="old_date"></p>
+    </div>
     <div class="container-lg px-5">
       <!-- Use class for "past", "present", and "future" to apply styles to the
         time-block divs accordingly. The javascript will need to do this by
@@ -41,7 +54,17 @@
         -->
 
       <!-- Example of a past time block. The "past" class adds a gray background color. -->
-       
+    </div>
+    <div class="row">
+      <br>
+      <hr>
+      <div class="col-3"></div>
+      <button  type="button" class="btn btn-danger col-6 " onclick=" reset()"> Reset the Scheduler</button>
+      <div class="col-3"></div>
+    </div> 
+    <hr>
+    
+    
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
       <script
         src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
