@@ -29,7 +29,7 @@ function checkTime()  {
     window.location.reload(true);
   }
   // at 6 o'clock after the working hours we will put today's tasks in the archive and empty the schedual
-  if(d.getHours() == 16 && d.getMinutes()==57 && d.getSeconds() == 35){
+  if(d.getHours() == 18 && d.getMinutes()==00 && d.getSeconds() == 00){
     archive.unshift(tasks);// add today's tasks to the archive
     localStorage.setItem("archive",JSON.stringify(archive));//assign a pointer to the archived array after using JSON to converted to string
     localStorage.removeItem("stored_tasks"); //delete today's tasks array
