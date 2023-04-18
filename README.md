@@ -32,8 +32,8 @@ N/A
 
 ## License
 
-Licensed under the [MIT](https://github.com/ghiasnaser/Code-Quiz/blob/315592c3736260e5954115980d90fff3a73112b7/LICENSE) license.
+Licensed under the [MIT](https://github.com/ghiasnaser/Work-Day-Scheduler/blob/e61cbc3b67956309b8c6909034f604b0c39b03c7/LICENSE) license.
 
 ## Links
-The website link:  https://ghiasnaser.github.io/Code-Quiz/
-The repository link: https://github.com/ghiasnaser/Code-Quiz.git
+The website link:  https://ghiasnaser.github.io/Work-Day-Scheduler/
+The repository link: https://github.com/ghiasnaser/Work-Day-Scheduler.git
